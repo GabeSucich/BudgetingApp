@@ -11,6 +11,7 @@ This application uses an express-based server to allow the client to be served d
     * [npm Packages](#npm-packages)
 * [Application Functionality](#application-functionality)
     * [See Deployed Application](https://desolate-sierra-38032.herokuapp.com/)
+    * [Credentials for Example Account](#example-account)
 * [Code Snippets](#code-snippets)
 * [Developers](#developers)
 
@@ -66,9 +67,21 @@ npm install
 <hr>
 <br>
 
+### [See deployed application](https://desolate-sierra-38032.herokuapp.com/)
+
+#### Example account: 
+
+To login to a pre-existing account with example data, use:
+
+* username: chester
+* password: chester
+
+<br>
+<hr>
+<br>
+
 ## Application Functionality
 
-### [See deployed application](https://desolate-sierra-38032.herokuapp.com/)
 
 FinanChill allows you to manage all the different facets of your budget in one place. On the Financials page, you can add new expenses. Here, our user is adding a morning cup of coffee to the unnecessary expense section of the budget.
 
