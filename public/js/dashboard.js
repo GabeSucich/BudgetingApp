@@ -281,7 +281,7 @@ $(document).ready(function () {
 
         if (xData.length > 30) {
             xData = xData.slice(xData.length - 30)
-            yData = yData.slice(yData.length - 30)
+            yData = yData.slice(0, 30)
         }
 
         var data = {
