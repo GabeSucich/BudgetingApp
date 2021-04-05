@@ -272,7 +272,7 @@ $(document).ready(function () {
         var yData = [0]
         var xCounter = 1
         var yCounter = 0
-        for (i = 0; i < budgetHistory.length; i++) {
+        for (i = Math.max(0, budgetHistory.length - 30); i < budgetHistory.length; i++) {
             xData.push(xCounter),
                 yCounter += budgetHistory[i].dailySaving
             yData.push(yCounter)
