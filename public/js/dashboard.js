@@ -272,11 +272,16 @@ $(document).ready(function () {
         var yData = [0]
         var xCounter = 1
         var yCounter = 0
-        for (i = Math.max(0, budgetHistory.length - 30); i < budgetHistory.length; i++) {
+        for (i = 0; i < budgetHistory.length; i++) {
             xData.push(xCounter),
                 yCounter += budgetHistory[i].dailySaving
             yData.push(yCounter)
             xCounter++;
+        }
+
+        if (xData.length > 30) {
+            xData = xData.slice(xData.length - 30)
+            yData = yData.slice(yData.length - 30)
         }
 
         var data = {
