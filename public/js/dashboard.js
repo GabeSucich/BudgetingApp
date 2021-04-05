@@ -280,7 +280,7 @@ $(document).ready(function () {
         }
 
         if (xData.length > 30) {
-            xData = xData.slice(xData.length - 30)
+            xData = xData.slice(0, 30)
             yData = yData.slice(0, 30)
         }
 
