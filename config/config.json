@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "password",
-    "database": "budget_db",
+    "database": "twitterScrubberDB",
     "host": "localhost",
     "dialect": "mysql"
   },

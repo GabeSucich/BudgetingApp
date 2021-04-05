@@ -10,7 +10,7 @@ This application uses an express-based server to allow the client to be served d
 * [Built With](#built-with)
     * [npm Packages](#npm-packages)
 * [Application Functionality](#application-functionality)
-    * [See Deployed Application](https://desolate-sierra-38032.herokuapp.com/)
+    * [See Deployed Application](https://financhill-gs.herokuapp.com/signup)
     * [Credentials for Example Account](#example-account)
 * [Code Snippets](#code-snippets)
 * [Developers](#developers)
@@ -67,7 +67,7 @@ npm install
 <hr>
 <br>
 
-### [See deployed application](https://desolate-sierra-38032.herokuapp.com/)
+### [See deployed application](https://financhill-gs.herokuapp.com/signup)
 
 #### Example account: 
 
